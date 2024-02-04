@@ -9,6 +9,15 @@
     padding: 0 10px 0 32px;
 }
 
+#error {
+    color: #F74646;
+    font-family: "Space Mono";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 #searchDark {
     background: #1E2A47;
     box-shadow: none;
@@ -105,6 +114,10 @@ input, #inputDark {
     width: 84px;
     font-size: 14px;
     padding: 12.5px;
+    }
+
+    #error {
+        font-size: 13px;
     }
 }
 
