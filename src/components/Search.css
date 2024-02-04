@@ -1,0 +1,127 @@
+#search, #searchDark {
+    display: flex;
+    align-items: center;
+    height: 69px;
+    border-radius: 15px;
+    background: #FEFEFE;
+    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+    margin-bottom: 24px;
+    padding: 0 10px 0 32px;
+}
+
+#searchDark {
+    background: #1E2A47;
+    box-shadow: none;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#searchLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+#searchIcon {
+    margin-right: 24px;
+}
+
+input, #inputDark {
+    border-style: none;
+    color: #222731;
+    font-family: "Space Mono";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 100%;
+    caret-color: #0079FF;
+    outline: none;
+    background: #FEFEFE;
+}
+
+#inputDark {
+    background: #1E2A47;
+    color: white;
+}
+
+#buttonResults {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonResults p {
+    color: #F74646;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 24px;
+}
+
+#buttonSearch {
+    width: auto;
+    height: 50px;
+    padding: 0 25px;
+    border-radius: 10px;
+    border-style: none;
+    background: #0079FF;
+    color: white;
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+#buttonSearch:hover {
+    background: #60ABFF;
+}
+
+@media screen and (max-width: 630px) {
+    #search, #searchDark {
+        height: 60px;
+        margin-bottom: 16px;
+    }
+
+    input, #inputDark {
+        font-size: 13px;
+    }
+
+    #buttonSearch {
+    height: 46px;
+    width: 84px;
+    font-size: 14px;
+    padding: 12.5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #search, #searchDark {
+        height: 60px;
+        margin-bottom: 16px;
+    }
+
+    input, #inputDark {
+        font-size: 13px;
+    }
+
+    #buttonSearch {
+    height: 46px;
+    width: 84px;
+    font-size: 14px;
+    padding: 12.5px;
+    }
+}

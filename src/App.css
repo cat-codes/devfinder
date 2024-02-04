@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100%;
+  background: #F6F8FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#content, #contentDark {
+  width: 730px;
+}
+
+#contentDark h1, h2, h4, p {
+  color: white;
+}
+
+h1 {
+  font-family: "Space Mono";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+#content h1 {
+  color: #222731;
+}
+
+h2 {
+  font-family: "Space Mono";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#content h2 {
+  color: #2B3442;
+}
+
+h3 {
+  color: #0079FF;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+h4 {
+  color: #697C9A;
+  text-align: right;
+  font-family: "Space Mono";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.5px;
+  margin: 0;
+}
+
+p {
+  text-align: left;
+  font-family: "Space Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+#content h4, p {
+  color: #697C9A;
+}
+
+
+@media screen and (max-width: 960px) {
+  #content, #contentDark {
+    width: 573px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  #content, #contentDark {
+      width: 440px;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+  
+  h2 {
+    font-size: 16px;
+  }
+  
+  h3 {
+    font-size: 13px;
+  }
+  
+  h4 {
+    font-size: 11px;
+  }
+  
+  p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #content, #contentDark {
+    width: 327px;
+  }
+}
